@@ -1,6 +1,6 @@
 # Ubuntu
 configure passwd for root: sudo passwd root\
-
+\
 steps for SSH:\
 sudo apt update\
 sudo apt install openssh-server openssh-client\
@@ -43,3 +43,10 @@ link: https://linuxhint.com/installing_php_myadmin_ubuntu/
 GRANT ALL PRIVILEGES ON phpmyadmin.* TO 'phpmyadmin'@'localhost';\
 sudo -H vim /etc/apache2/apache2.conf\
 Include /etc/phpmyadmin/apache2.conf\
+\
+\
+ssh connection: ssh username@ip -p65022\
+\
+\
+\
+# CentOS

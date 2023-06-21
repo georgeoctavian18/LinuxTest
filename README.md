@@ -48,5 +48,5 @@ Include /etc/phpmyadmin/apache2.conf\
 ssh connection: ssh username@ip -p65022\
 \
 \
-\
+
 # CentOS

@@ -44,7 +44,6 @@ GRANT ALL PRIVILEGES ON phpmyadmin.* TO 'phpmyadmin'@'localhost';\
 sudo -H vim /etc/apache2/apache2.conf\
 Include /etc/phpmyadmin/apache2.conf\
 \
-\
 ssh connection: ssh username@ip -p65022\
 
 # CentOS

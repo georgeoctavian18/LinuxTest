@@ -31,7 +31,7 @@ sudo chmod -R 755 /var/www/html\
 vim /var/www/html/index.html\
 sudo systemctl restart apache2\
 \
-useful link: https://linuxhint.com/install_apache_web_server_ubuntu/\
+useful link: https://linuxhint.com/install_apache_web_server_ubuntu/
 \
 \
 \
@@ -47,4 +47,4 @@ steps for phpmyadmin:\
 GRANT ALL PRIVILEGES ON phpmyadmin.* TO 'phpmyadmin'@'localhost';\
 sudo -H vim /etc/apache2/apache2.conf\
 Include /etc/phpmyadmin/apache2.conf\
-link: https://linuxhint.com/installing_php_myadmin_ubuntu/\
+link: https://linuxhint.com/installing_php_myadmin_ubuntu/

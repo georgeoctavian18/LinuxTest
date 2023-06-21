@@ -16,7 +16,6 @@ su -l testadmin\
 sudo systemctl restart sshd\
 \
 steps for apache:\
-sudo -\
 yum install httpd\
 cd /etc/httpd\
 ls\

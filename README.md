@@ -29,21 +29,21 @@ systemctl status firewalld - check for status\
 systemctl stop firewalld\
 systemctl start httpd\
 systemctl enable httpd\
-
-
-steps for mariadb: 
-sudo yum install mariadb-server
-sudo systemctl start mariadb
-sudo systemctl enable mariadb
-sudo mysql_secure_installation
-
-steps for phpmyadmin:
-yum install epel-release
-yum install phpmyadmin
-cd /etc/httpd/conf.d
-vim phpMyAdmin.conf:
-CHANGE Require ip 127.0.0.1 -> Require all granted
-CHANGE Allow from 127.0.0.1 -> Allow from all
-COMMENT Deny from all (first 2)
-sudo yum install php
-systemctl restart httpd
+\
+\
+steps for mariadb: \
+sudo yum install mariadb-server\
+sudo systemctl start mariadb\
+sudo systemctl enable mariadb\
+sudo mysql_secure_installation\
+\
+steps for phpmyadmin:\
+yum install epel-release\
+yum install phpmyadmin\
+cd /etc/httpd/conf.d\
+vim phpMyAdmin.conf:\
+CHANGE Require ip 127.0.0.1 -> Require all granted\
+CHANGE Allow from 127.0.0.1 -> Allow from all\
+COMMENT Deny from all (first 2)\
+sudo yum install php\
+systemctl restart httpd\
